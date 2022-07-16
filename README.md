@@ -1,7 +1,7 @@
 # sunst0rm-guide
+This is a work in progress guide for sunst0rm, it currently only features the dependency installation but it will be updated with all sections in the following index:
 
-
-### Index:
+### Index
 
   - [About](docs/ABOUT.md): This will explain what is sunst0rm, who is it useful for, its benefits and drawbacks and all you need to know before you start. Its really recommended that you read this before starting.
   - Installation:
