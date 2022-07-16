@@ -16,3 +16,6 @@ Who is this script for?
 What should I know before tether downgrading?
   - A10+ devices will encounter problems on a downgraded version of iOS, please check for known problems of downgrading your phone before attempting this!
   - Any device should be able to be restored to the latest version of iOS via Finder.
+
+
+**The sunst0rm developers are not responsible for any damage to your device or data loss, users must proceed at their own risk!**
