@@ -1,3 +1,13 @@
+# sunst0rm dependency install
+
+In this guide, I will walk you through the installation of all sunst0rm dependencies so you can start using the script right away! Please, be sure to read [the about secion](../ABOUT.md) before starting!
+
+
+## Requirements
+  - You will require an Apple Mac to run this, or a hackintosh. VMs have mixed results and your milage may vay, try it at your own risk.
+  - This guide was written for 64bit macOS 10.5+. Compatibility with older versions may not be guaranteed.
+  - Make sure to have some free time and patience :)
+
 ### Step 0: [Brew](https://brew.sh/)
 Lets start simple, get yourself brew installed, you can find the instructions on [their website](https://brew.sh/). Run the command and let it finish, it will ask you to install XCode Command Line Tools, just let it install everything.
 
