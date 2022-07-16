@@ -12,7 +12,6 @@ TLDR:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Step 0.1: Brew initial dependencies
 With homebrew installed, we will start getting ourselves some of the dependencies:
 ```
 brew install automake autoconf pkg-config libtool libusb
