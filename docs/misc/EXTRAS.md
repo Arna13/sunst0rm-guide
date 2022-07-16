@@ -24,7 +24,7 @@ Step 10. Click respring
 
 Step 11. Congrats you now have Cydia!
 
-##### Tutorial by NotDavid#3035
+##### Made by NotDavid#3035
 
 ## How to prevent your iPhone that you just downgraded to shutdown when on low battery.
 
