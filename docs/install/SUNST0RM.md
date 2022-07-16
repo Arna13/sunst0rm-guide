@@ -5,7 +5,7 @@ If sunst0rm complains about an unsatisfied dependency, please check you have all
 
 If you encounter any problem, please check the [troubleshooting section](../misc/TROUBLESHOOTING.md) before asking for help!
 
-### [sunst0rm](https://github.com/mineek/sunst0rm/)
+### Getting [sunst0rm](https://github.com/mineek/sunst0rm/)
 
 We will ``git clone`` the ``sunst0rm`` repo and then ``cd`` into it and install the ``pip`` dependencies:
 ```
