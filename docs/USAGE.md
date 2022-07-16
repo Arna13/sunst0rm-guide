@@ -6,7 +6,7 @@ The sunst0rm script is mainly split in two parts:
 
 First, we will need to restore the device. **This will erase all your data!** Back up any important data before proceeding.
 
-Before we start, you have to download an IPSW for your device from a [SEP compatible](https://docs.google.com/spreadsheets/u/0/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/htmlview) iOS version. IPSWs can be easily found on the internet, you can just Google "ipsw".
+Before we start, you have to download an IPSW for your device from a [SEP compatible](https://docs.google.com/spreadsheets/u/0/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/htmlview) iOS version. IPSWs can be easily found on the internet, the IPSW site of choice is [ipsw.me](https://ipsw.me/).
 
 Once you have your IPSW, move it to your ``sunst0rm`` dir.
 
