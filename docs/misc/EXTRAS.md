@@ -1,6 +1,6 @@
 # Extras
 
-### How to install Cydia alongside Sileo | A tutorial on how to install Cydia alongside Sileo if you don't like Sileo
+## How to install Cydia alongside Sileo | A tutorial on how to install Cydia alongside Sileo if you don't like Sileo
 
 Step 1. Install Sideloadly on your Mac from https://sideloadly.io/
 
@@ -26,7 +26,7 @@ Step 11. Congrats you now have Cydia!
 
 ##### Tutorial by NotDavid#3035
 
-### How to prevent your iPhone that you just downgraded to shutdown when on low battery.
+## How to prevent your iPhone that you just downgraded to shutdown when on low battery.
 
 Step 1. Open Cydia
 
