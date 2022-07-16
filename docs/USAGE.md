@@ -4,7 +4,7 @@ The sunst0rm script is mainly split in two parts:
   - Restoring the device
   - Preparing the boot files
 
-First, we will need to restore the device. **This will erease all your data!** Back up any important data before proceeding.
+First, we will need to restore the device. **This will erase all your data!** Back up any important data before proceeding.
 
 Before we start, you have to download an IPSW for your device from a [SEP compatible](https://docs.google.com/spreadsheets/u/0/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/htmlview) iOS version. IPSWs can be easily found on the internet, you can just Google "ipsw".
 
