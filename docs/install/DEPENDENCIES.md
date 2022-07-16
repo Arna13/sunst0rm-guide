@@ -87,7 +87,7 @@ You should now be able to launch Kernel64Patcher from terminal.
 We will not be compiling this one either, but instead we will grab a precompiled binary.
 Grab the latest ``.zip`` for your OS from the [releases tab](https://github.com/tihmstar/img4tool/releases), in this case its ``buildroot_macos-latest.zip``.
 
-Extract the ``.zip`` file, you will now have a folder named ``buildroot_macos-latest``. We will ``cd`` inside the folder and ``mv`` all folders inside ``usr/local/`` folder into our ``/usr/local/`` directory:
+Extract the ``.zip`` file, you will now have a folder named ``buildroot_macos-latest``. We will ``cd`` inside the folder and ``cp`` all folders inside ``usr/local/`` folder into our ``/usr/local/`` directory:
 ```
 cd buildroot_macos-latest
 cp -r usr/local/* /usr/local/
