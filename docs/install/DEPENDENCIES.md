@@ -90,7 +90,12 @@ Grab the latest ``.zip`` for your OS from the [releases tab](https://github.com/
 Extract the ``.zip`` file, you will now have a folder named ``buildroot_macos-latest``. We will ``cd`` inside the folder and ``mv`` all folders inside ``usr/local/`` folder into our ``/usr/local/`` directory:
 ```
 cd buildroot_macos-latest
-mv usr/local/* /usr/local/
+cp -r usr/local/* /usr/local/
+```
+
+Now, we will ``chmmod`` it to add execution permissions to the bin file:
+```
+chmod +x /usr/local/bin/img4tool
 ```
 
 You now should be able to run ``img4tool`` on your terminal.
