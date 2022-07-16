@@ -1,4 +1,4 @@
-# Misc tweaks
+# Extras
 
 ### How to install Cydia alongside Sileo | A tutorial on how to install Cydia alongside Sileo if you don't like Sileo
 
