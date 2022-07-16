@@ -10,4 +10,4 @@ This is a work in progress guide for sunst0rm, it currently only features the de
   - [Usage](docs/install/USAGE.md): This explains how to use sunst0rm to restore and boot an unsigned iOS version without blobs.
   - Misc:
     - [Troubleshooting](docs/misc/TROUBLESHOOTING.md): This will help you fix common errors you may encounter using sunst0rm or installing its dependencies.
-    - [sunst0rm-gui](docs/misc/): More info about the (not yet finished) GUI version of sunst0rm.
+    - [sunst0rm-gui](docs/misc/GUI.md): More info about the (not yet finished) GUI version of sunst0rm.
