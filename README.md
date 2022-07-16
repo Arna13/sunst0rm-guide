@@ -8,7 +8,7 @@ This is a hopefully easy to understand guide for [mineek's sunst0rm](https://git
     - [Dependencies](docs/install/DEPENDENCIES.md): This will guide you through installing dependencies coming from a vanilla macOS install.
     - [sunst0rm](docs/install/SUNST0RM.md): This will help you set up sunst0rm in your Mac and confirm all dependencies are correctly installed
   - [Usage](docs/USAGE.md): This explains how to use sunst0rm to restore and boot an unsigned iOS version without blobs.
-  - Misc:
+  - [Misc](docs/misc/MISC-TWEAKS.md):
     - [Troubleshooting](docs/misc/TROUBLESHOOTING.md): This will help you fix common errors you may encounter using sunst0rm or installing its dependencies.
     - [sunst0rm-gui](docs/misc/GUI.md): More info about the (not yet finished) GUI version of sunst0rm.
 
