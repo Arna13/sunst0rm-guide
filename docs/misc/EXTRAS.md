@@ -25,3 +25,25 @@ Step 10. Click respring
 Step 11. Congrats you now have Cydia!
 
 ##### Tutorial by NotDavid#3035
+
+### How to prevent your iPhone that you just downgraded to shutdown when on low battery.
+
+Step 1. Open Cydia
+
+Step 2. Press the search icon in the bottom right of the screen
+
+Step 3. Search "Sentinel"
+
+Step 4. Press on it and install it
+
+Step 5. Respring
+
+Step 6. Go to settings and scroll down until you find "Sentinel"
+
+Step 7. Click on it
+
+Step 8. Configure the settings to your liking!
+
+Step 9. Enjoy your Downgraded iDevice
+
+##### Made by NotDavid#3035
