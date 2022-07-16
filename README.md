@@ -1,7 +1,11 @@
 # sunst0rm-guide
 This is a hopefully easy to understand guide for [mineek's sunst0rm](https://github.com/mineek/sunst0rm), it is recommended to be read in order but you can skip to any part you are interested in.
 
-### Index
+##### For more information, check out the [discord](https://discord.gg/TqVH6NBwS3)!
+
+##### Thanks for everyone who made this tool possible, hopefully this guide will help less experienced people to use this tool.
+
+## Index
 
   - [About](docs/ABOUT.md): This will explain what is sunst0rm, who is it useful for, its benefits and drawbacks and all you need to know before you start. Its really recommended that you read this before starting.
   - Installation:
@@ -11,8 +15,3 @@ This is a hopefully easy to understand guide for [mineek's sunst0rm](https://git
   - Misc:
     - [Troubleshooting](docs/misc/TROUBLESHOOTING.md): This will help you fix common errors you may encounter using sunst0rm or installing its dependencies.
     - [sunst0rm-gui](docs/misc/GUI.md): More info about the (not yet finished) GUI version of sunst0rm.
-
-
-For more information, check out the [discord](https://discord.gg/TqVH6NBwS3)!
-
-Thanks for everyone who made this tool possible, hopefully this guide will help less experienced people to use this tool.
