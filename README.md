@@ -4,7 +4,7 @@ WIP
 ## Guide to install and use sunst0rm on macOS x86.
 First of all, we need all dependencies satisfied. This will take some time so please, be patient with the process :)
 
-### Step 0: Brew
+### Step 0: [Brew](https://brew.sh/)
 Lets start simple, get yourself brew installed, you can find the instructions on [their website](https://brew.sh/). Run the command and let it finish, it will ask you to install XCode Command Line Tools, just let it install everything.
 
 TLDR:
