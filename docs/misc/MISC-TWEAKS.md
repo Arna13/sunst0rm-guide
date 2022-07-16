@@ -1,6 +1,6 @@
 # Misc tweaks
 
-### How to install Cydia alongside Sileo by NotDavid#3035
+### How to install Cydia alongside Sileo | A tutorial on how to install Cydia alongside Sileo if you don't like Sileo
 
 Step 1. Install Sideloadly on your Mac from https://sideloadly.io/
 
@@ -23,3 +23,5 @@ Step 9. Search "Cydia Installer", click on that and click install.
 Step 10. Click respring
 
 Step 11. Congrats you now have Cydia!
+
+##### Tutorial by NotDavid#3035
