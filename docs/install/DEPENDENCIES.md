@@ -2,6 +2,8 @@
 
 In this guide, I will walk you through the installation of all sunst0rm dependencies so you can start using the script right away! Please, be sure to read [the about secion](../ABOUT.md) before starting!
 
+If you experience any issues, check the [troubleshooting section](../misc/TROUBLESHOOTING.md) before opening an issue or asking in the discord! If your problem is not solved from the troubleshooting section, feel free to open an issue or ask for help [in the discord](https://discord.gg/TqVH6NBwS3). You can mention me there (Arna13) on the support channel and I will try to help you.
+
 
 ## Requirements
   - You will require an Apple Mac to run this, or a hackintosh. VMs have mixed results and your milage may vay, try it at your own risk.
@@ -152,3 +154,6 @@ You just need to [download python](https://www.python.org/downloads/) with the b
 I will not guide you though the installation as its only a ``.dmg`` with an installer inside where you just need to click next until it installs, I think you can do this alone :)
 
 Now you should have Python icons in your launchpad, that means it installed correctly.
+
+### Step 11: [sunst0rm](./SUNST0RM.md)
+With all external dependencies satisfied, we can start to [install sunst0rm and its pip dependencies](./SUNST0RM.md)
