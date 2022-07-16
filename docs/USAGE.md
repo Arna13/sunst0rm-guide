@@ -63,7 +63,9 @@ If the progress completed fine, you should be now looking at an iphone with a bl
 
 Pay attention to this part since its very important. You will now enter the same command as before, except you will change the ``-r`` to ``-b``, and you will add your device identifier at the end of it like this: 
 
-```python3 sunstorm.py -i 'IPSW' -t 'SHSH2' -b -d 'BOARDCONFIG' -id 'IDENTIFIER'```. 
+```
+python3 sunstorm.py -i 'IPSW' -t 'SHSH2' -b -d 'BOARDCONFIG' -id 'IDENTIFIER'
+```
 
 Where:
   - IDENTIFIER: is your [iPhone model identifier](https://www.theiphonewiki.com/wiki/Models#iPhone) (Check the identifier column)
