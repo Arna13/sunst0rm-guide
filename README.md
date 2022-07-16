@@ -22,20 +22,10 @@ With this done, we can start compiling some of the dependencies
 
 
 ### Step 1: [libirecovery](https://github.com/libimobiledevice/libirecovery)
-First of all, ``git clone`` the repo and ``cd`` into it:
+To get libimobiledevice we can simply let brew install it so we don't have to compile it manually:
 ```
-git clone https://github.com/libimobiledevice/libirecovery.git
-cd libirecovery
+brew install libimobiledevice
 ```
-
-Then, simply run the ``autogen.sh`` script and compile it normally with ``make``. When its done compiling, install it with ``sudo make install``
-```
-./autogen.sh
-make
-sudo make install
-```
-
-After it finishes, you can go back to your previous directory with ``cd ..``. You can now remove the ``libirecovery`` directory if you want. This applies to all dependencies.
 
 Now you should be able to run ``libirecovery`` on your terminal.
 
@@ -84,6 +74,8 @@ Now that we have our binary compiled, we can move it into a directory in our pat
 mv Kernel64Patcher /usr/local/bin/
 ```
 
+You can then go back to your previous directory with ``cd ..`` and remove the ``Kernel64Patcher`` directory if you want. This applies to all compiled dependencies.
+
 You should now be able to launch Kernel64Patcher from terminal.
 
 ### Step 5: [img4tool](https://github.com/tihmstar/img4tool/)
@@ -102,12 +94,12 @@ You now should be able to run ``img4tool`` on your terminal.
 This one can be a bit tricky to compile, but we dont have a bin available so we will compile it manually.
 
 First, we will ``git clone`` the repo with the ``--recursive`` flag, then we will ``cd`` into it and ``make`` lzfse and finally ``make`` img4lib using ``COMMONCRYPTO``:
-``
+```
 git clone https://github.com/xerub/img4lib.git --recursive 
 cd img4lib
 make -C lzfse
 make COMMONCRYPTO=1
-``
+```
 
 If CommonCrypto fails, you might have to compile ``OpenSSL_1_1_1`` to ``make`` with OpenSSL instead of CommonCrypto, but that is beyond the scope of this guide.
 
