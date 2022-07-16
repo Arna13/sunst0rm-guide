@@ -154,3 +154,6 @@ You just need to [download python](https://www.python.org/downloads/) with the b
 I will not guide you though the installation as its only a ``.dmg`` with an installer inside where you just need to click next until it installs, I think you can do this alone :)
 
 Now you should have Python icons in your launchpad, that means it installed correctly.
+
+### Step 11: [sunst0rm](./SUNST0RM.md)
+With all external dependencies satisfied, we can start to [install sunst0rm and its pip dependencies](./SUNST0RM.md)
