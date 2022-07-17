@@ -15,7 +15,7 @@ I will not get into details on how to get blobs for your device since there are 
 
 ECID and boardconfig can be found running ``irecovery -q`` on a terminal with an iPhone connected **in DFU mode**. 
 
-Save your boardconfig, you will need it in a moment.
+Save your boardconfig (shown in MODEL), you will need it in a moment.
 
 To restore our device, as well as to boot it, we need a Pwner for our device. Different CPUs will need different Pwners.
 I will not be getting further into how to get your iPhone into pwndfu, you should be able to find online how to enter pwndfu on your specific device model.
