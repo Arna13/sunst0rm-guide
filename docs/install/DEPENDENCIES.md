@@ -6,8 +6,8 @@ If you experience any issues, check the [troubleshooting section](../misc/TROUBL
 
 
 ## Requirements
-  - You will require an Apple Mac to run this, or a hackintosh. VMs have mixed results and your milage may vay, try it at your own risk.
-  - This guide was written for 64bit macOS 10.5+. Compatibility with older versions may not be guaranteed.
+  - You will require an Apple Mac to run this, or a hackintosh. VMs have mixed results and your mileage may vary, try it at your own risk.
+  - This guide was written for 64bit macOS 10.15+. Compatibility with older versions may not be guaranteed.
   - Make sure to have some free time and patience :)
 
 ### Step 0: [Brew](https://brew.sh/)
