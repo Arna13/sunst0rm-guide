@@ -36,7 +36,7 @@ Then enter:
 brew install libirecovery
 ```
 
-Now you should be able to run ``libirecovery`` on your terminal.
+Now you should be able to run ``irecovery`` on your terminal.
 
 ### Step 2: [futurerestore](https://github.com/futurerestore/futurerestore/)
 This one is probably one of the trickiest to compile, thats why compiling futurerestore is beyond the scope of this "simple" guide.
