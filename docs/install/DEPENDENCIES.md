@@ -31,6 +31,10 @@ To get libimobiledevice we can simply let brew install it so we don't have to co
 ```
 brew install libimobiledevice
 ```
+Then enter:
+```
+brew install libirecovery
+```
 
 Now you should be able to run ``libirecovery`` on your terminal.
 
