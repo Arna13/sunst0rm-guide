@@ -9,13 +9,13 @@ What is a tethered downgrade?
 
 Who is this script for?
   - This script can be useful for people who want to downgrade to an earlier version of iOS on a compatible device but don't have blobs saved.
-  - This can be useful for people with a spare iPhone that want to get jailbreak on it and dont want to wait until iOS 15 jailbreak. (Note: Some JBs may not work with a tethered downgrade, such as checkra1n. We recommend using Taurine, which is known to work.)
+  - This can be useful for people with a spare iPhone that want to get jailbreak on it and dont want to wait until iOS 15 jailbreak. (Note: Some JBs may not work with a tethered downgrade, such as checkra1n or unc0ver. We recommend using Taurine, which is known to work.)
   - This script is intended for people who know what they're doing. Tethered downgrdes are not something we recommend doing on a main device, since it can let your phone inaccesible without a computer to turn it on. 
   - If you are not familiar with computers, we do not recommend following this guide since you will just be running commands without much idea about what they do, which can potentially be dangerous. **I strongly suggest you never run random commands you see on the internet without understanding what they do!**
 
 What should I know before tether downgrading?
   - A10+ devices will encounter problems on a downgraded version of iOS, please check for known problems of downgrading your phone before attempting this!
-  - Any device should be able to be restored to the latest version of iOS via Finder.
+  - Any device should be able to be restored to the latest version of iOS via Finder / iTunes.
 
 
 **The sunst0rm developers are not responsible for any damage to your device or data loss, users must proceed at their own risk!**
