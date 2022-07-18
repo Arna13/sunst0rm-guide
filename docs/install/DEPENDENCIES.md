@@ -106,27 +106,18 @@ You now should be able to run ``img4tool`` on your terminal.
 
 ### Step 6: [img4](https://github.com/xerub/img4lib)
 
-TODO: There is a bin available for img4, we will update this step soon. You can still follow the guide and compile it yourself for now.
+Download the [img4 binary](https://github.com/xerub/img4lib/releases/tag/1.0) and unzip it.
 
-This one can be a bit tricky to compile.
-
-First, we will ``git clone`` the repo with the ``--recursive`` flag, then we will ``cd`` into it and ``make`` lzfse and finally ``make`` img4lib using ``COMMONCRYPTO``:
+Now cd into the apple folder 
 ```
-git clone https://github.com/xerub/img4lib.git --recursive 
-cd img4lib
-make -C lzfse
-make COMMONCRYPTO=1
+cd apple
 ```
-
-If CommonCrypto fails, you might have to compile ``OpenSSL_1_1_1`` to ``make`` with OpenSSL instead of CommonCrypto, but that is beyond the scope of this guide.
-
-You should now move the ``img4`` bin into path and any lib files into ``/usr/local/lib/``:
+And copy img4 to usr/local/bin and libimg4.a to /usr/local/lib
 ```
-mv img4 /usr/local/bin/
-mv libimg4.a /usr/local/lib/
+cp img4 /usr/local/bin
+cp libimg4.a /usr/local/lib
 ```
-
-Now you should be able to run ``img4`` on your terminal and to use ``img4lib``.
+You should now be able to run ``img4`` in your terminal.
 
 ### Step 7: [ldid](https://github.com/ProcursusTeam/ldid)
 This one is pretty easy, we can compile it but for this guide we will use brew to install it:
