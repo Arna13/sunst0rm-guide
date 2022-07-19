@@ -41,7 +41,7 @@ Now you should be able to run ``irecovery`` on your terminal.
 ### Step 2: [futurerestore](https://github.com/futurerestore/futurerestore/)
 This one is probably one of the trickiest to compile, thats why compiling futurerestore is beyond the scope of this "simple" guide.
 Instead, we will be downloading the nightly build from its [github actions](https://github.com/futurerestore/futurerestore/actions). Bear in mind, a github account is needed for this. 
-If you dont want to create a github account, or dont find the download link, try [this one instead](https://nightly.link/futurerestore/futurerestore/workflows/ci/test).
+If you dont want to create a github account, or dont find the download link, try [this one instead](https://nightly.link/futurerestore/futurerestore/workflows/ci/main).
 
 Make sure to always download the correct file for your computer, which in most cases is ``futurerestore-macOS-RELEASE.zip``.
 
