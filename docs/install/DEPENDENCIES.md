@@ -27,13 +27,9 @@ With this done, we can start compiling some of the dependencies
 
 
 ### Step 1: [libirecovery](https://github.com/libimobiledevice/libirecovery)
-To get libimobiledevice we can simply let brew install it so we don't have to compile it manually:
+To get libirecovery we can simply let brew install it so we don't have to compile it manually:
 ```
-brew install libimobiledevice
-```
-Then enter:
-```
-brew install libirecovery
+brew install libimobiledevice libirecovery
 ```
 
 Now you should be able to run ``irecovery`` on your terminal.
