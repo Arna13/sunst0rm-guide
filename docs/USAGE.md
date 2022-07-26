@@ -72,7 +72,7 @@ Where:
 
 Following my A9 device example:
 ```
-python3 sunstorm.py -i ios14.3.ipsw -t blobs.shsh2 -r -d n71map --kpp -id iPhone8,1
+python3 sunstorm.py -i ios14.3.ipsw -t blobs.shsh2 -b -d n71map --kpp -id iPhone8,1
 ```
 
 **Note that since I am using an A9 or lower device, I am putting ``--kpp`` on this command too!**

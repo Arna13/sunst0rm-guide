@@ -123,22 +123,24 @@ brew install ldid
 
 This should now let us run ``ldid`` on the terminal.
 
-### Step 8: [restored_external64patcher](https://github.com/iSuns9/restored_external64patcher)
+### Step 8: [restored_external64_patcher](https://github.com/iSuns9/restored_external64patcher)
 This is an easy one too, but it needs to be compiled.
 
 First, ``git clone`` the repo and ``cd`` into it. Then, just run ``make`` and ``mv`` the binary to path:
 ```
 git clone https://github.com/iSuns9/restored_external64patcher.git
+cd restored_external64patcher
 make
-mv restored_external64patcher /usr/local/bin/
+mv restored_external64_patcher /usr/local/bin/
 ```
 
-Now, you should be able to run ``restored_external64patcher`` from the terminal.
+Now, you should be able to run ``restored_external64_patcher`` from the terminal.
 
 ### Step 9: [asr64_patcher](https://github.com/exploit3dguy/asr64_patcher)
 This one is identical to the last one:
 ```
 git clone https://github.com/exploit3dguy/asr64_patcher.git
+cd asr64_patcher
 make
 mv asr64_patcher /usr/local/bin
 ```
