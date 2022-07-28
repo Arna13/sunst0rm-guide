@@ -22,6 +22,22 @@ I will not be getting further into how to get your iPhone into pwndfu, you shoul
 
 We will need a pwner with the ability to remove sigchecks! For example, in ipwndfu: ``python2 ipwndfu -p --rmsigchecks``.
 If you dont remove sigchecks, the restore will hang at sending iBSS/iBEC and will not restore/boot!
+## Placing the device into pwndfu mode with gaster or ipwndfu. ##
+- Compiling and running gaster. 
+```
+git clone https://github.com/0x7ff/gaster
+cd gaster
+make
+mv gaster /usr/local/bin/gaster
+gaster pwn
+```
+- Using ipwndfu.
+```
+git clone https://github.com/hack-different/ipwndfu.git
+cd ipwndfu
+./dev_install.sh
+ipwndfu -p && ipwndfu --patch-sigchecks && ipwndfu --repair-heap
+```
 
 Once you have your iPhone in pwndfu with sigchecks removed, you may continue.
 
