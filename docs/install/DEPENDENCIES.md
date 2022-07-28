@@ -101,14 +101,14 @@ chmod +x /usr/local/bin/img4tool
 You now should be able to run ``img4tool`` on your terminal.
 
 ### Step 6: [img4](https://github.com/xerub/img4lib)
-
-Download the [img4 binary](https://github.com/xerub/img4lib/releases/tag/1.0) and unzip it.
-
-Now cd into the apple folder 
+*Compile img4lib*
 ```
-cd apple
+git clone https://github.com/xerub/img4lib.git --recursive
+cd img4lib
+make -C lzfse
+make COMMONCRYPTO=1
 ```
-And copy img4 to usr/local/bin and libimg4.a to /usr/local/lib
+Once img4lib is done compiling copy img4 to /usr/local/bin and libimg4.a to /usr/local/lib
 ```
 cp img4 /usr/local/bin
 cp libimg4.a /usr/local/lib
