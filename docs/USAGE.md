@@ -53,7 +53,7 @@ python3 sunstorm.py -i ios14.3.ipsw -t blobs.shsh2 -r -d n71map --kpp
 **Note: If your device does not have baseband such as iPod Touch or Wifi Only iPads pass --skip-baseband to sunst0rm arguments.**
 Example Usage: 
 ```
-python3 sunstorm.py -i IPSW -t blob.shsh2 -b -d j81ap --kpp -id Pad5,3 --skip-baseband
+python3 sunstorm.py -i IPSW -t blob.shsh2 -r -d j81ap --kpp --skip-baseband
 ```
 
 If you are using an A10+ device, **DO NOT** add ``--kpp``
