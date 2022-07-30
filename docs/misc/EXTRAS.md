@@ -47,3 +47,11 @@ Step 8. Configure the settings to your liking!
 Step 9. Enjoy your Downgraded iDevice
 
 ##### Made by NotDavid#3035
+
+## A workaround for the sleep bug. ##
+***Note: You need to be in a jailbroken state.***
+**Note: This may cause unnecessary battery drain due to keeping WiFi always running.**
+Step 1: Open Sileo or your preferred package manager.
+Step 2: Add this repo to your sources `https://julioverne.github.io`
+Step 3: Search for "Fiona" and install the tweak
+**And that is it you are done.**

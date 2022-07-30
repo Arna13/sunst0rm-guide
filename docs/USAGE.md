@@ -22,6 +22,22 @@ I will not be getting further into how to get your iPhone into pwndfu, you shoul
 
 We will need a pwner with the ability to remove sigchecks! For example, in ipwndfu: ``python2 ipwndfu -p --rmsigchecks``.
 If you dont remove sigchecks, the restore will hang at sending iBSS/iBEC and will not restore/boot!
+## Placing the device into pwndfu mode with gaster or ipwndfu. ##
+- Compiling and running gaster. 
+```
+git clone https://github.com/0x7ff/gaster
+cd gaster
+make
+mv gaster /usr/local/bin/gaster
+gaster pwn
+```
+- Using ipwndfu.
+```
+git clone https://github.com/hack-different/ipwndfu.git
+cd ipwndfu
+./dev_install.sh
+ipwndfu -p && ipwndfu --patch-sigchecks && ipwndfu --repair-heap
+```
 
 Once you have your iPhone in pwndfu with sigchecks removed, you may continue.
 
@@ -49,6 +65,11 @@ Now, **before pressing enter**, we will find out if we need to remove Kernel Pat
 Therefore, following my example with an A9 device:
 ```
 python3 sunstorm.py -i ios14.3.ipsw -t blobs.shsh2 -r -d n71map --kpp
+```
+**Note: If your device does not have baseband such as iPod Touch or Wifi Only iPads pass --skip-baseband to sunst0rm arguments.**
+Example Usage: 
+```
+python3 sunstorm.py -i IPSW -t blob.shsh2 -r -d j81ap --kpp --skip-baseband
 ```
 
 If you are using an A10+ device, **DO NOT** add ``--kpp``
