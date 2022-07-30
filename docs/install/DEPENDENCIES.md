@@ -20,7 +20,7 @@ TLDR:
 
 With homebrew installed, we will start getting ourselves some of the dependencies:
 ```
-brew install automake autoconf pkg-config libtool libusb poetry
+brew install automake autoconf pkg-config libtool libusb poetry libpng
 ```
 
 With this done, we can start compiling some of the dependencies
@@ -144,10 +144,17 @@ cd asr64_patcher
 make
 mv asr64_patcher /usr/local/bin
 ```
-
 Now, ``asr64_patcher`` should be installed and accessible from the terminal.
+### Step 10: [ibootim](https://github.com/realnp/ibootim)
+```
+git clone https://github.com/realnp/ibootim
+cd ibootim
+make
+mv ibootim /usr/local/bin/ibootim
+```
+Now that you have `ibootim` installed we can move on to the next step.
 
-### Step 10: [Python3](https://www.python.org/downloads/)
+### Step 11: [Python3](https://www.python.org/downloads/)
 We need to install the latest version of ``Python3`` since the version bundled with macOS can have some issues with ``sunst0rm``. 
 
 You just need to [download python](https://www.python.org/downloads/) with the big yellow button and install it. 
@@ -156,5 +163,5 @@ I will not guide you though the installation as its only a ``.dmg`` with an inst
 
 Now you should have Python icons in your launchpad, that means it installed correctly.
 
-### Step 11: [sunst0rm](./SUNST0RM.md)
+### Step 12: [sunst0rm](./SUNST0RM.md)
 With all external dependencies satisfied, we can start to [install sunst0rm and its pip dependencies](./SUNST0RM.md)
