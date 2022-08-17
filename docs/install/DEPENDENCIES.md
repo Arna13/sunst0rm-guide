@@ -101,14 +101,15 @@ chmod +x /usr/local/bin/img4tool
 You now should be able to run ``img4tool`` on your terminal.
 
 ### Step 6: [img4](https://github.com/xerub/img4lib)
-**Compile img4lib**
+We will be compiling ``img4`` since the binary can somtimes cause issues. If you find any trouble compiling ``img4``, try the binary from the release section.
+To compile it we will simply ``git clone`` it with the recursive flag, ``cd`` into it and ``make -C lzfse`` and finally ``make`` with ``COMMONCRYPTO=1``.
 ```
 git clone https://github.com/xerub/img4lib.git --recursive
 cd img4lib
 make -C lzfse
 make COMMONCRYPTO=1
 ```
-**Once img4lib is done compiling copy img4 to /usr/local/bin and libimg4.a to /usr/local/lib**
+Once ``img4lib`` is done compiling copy ``img4`` to ``/usr/local/bin`` and ``libimg4.a`` to ``/usr/local/lib``.
 ```
 cp img4 /usr/local/bin
 cp libimg4.a /usr/local/lib
