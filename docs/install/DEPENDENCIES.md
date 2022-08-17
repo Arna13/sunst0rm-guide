@@ -145,16 +145,8 @@ make
 mv asr64_patcher /usr/local/bin
 ```
 Now, ``asr64_patcher`` should be installed and accessible from the terminal.
-### Step 10: [ibootim](https://github.com/realnp/ibootim)
-```
-git clone https://github.com/realnp/ibootim
-cd ibootim
-make
-mv ibootim /usr/local/bin/ibootim
-```
-Now that you have `ibootim` installed we can move on to the next step.
 
-### Step 11: [Python3](https://www.python.org/downloads/)
+### Step 10: [Python3](https://www.python.org/downloads/)
 We need to install the latest version of ``Python3`` since the version bundled with macOS can have some issues with ``sunst0rm``. 
 
 You just need to [download python](https://www.python.org/downloads/) with the big yellow button and install it. 
