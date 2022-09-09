@@ -58,6 +58,7 @@ Step 3: Search for "Fiona" and install the tweak
 
 ## Fix Camera TEMPORARY at the moment ##
 ***Note: You need be in a jailbroken state.***
+
 Step 1: Jailbreak your device with Taurine
 
 Step 2: Make the repo updates in Sileo
@@ -77,7 +78,7 @@ Step 8: Enjoy
 
 ***Note: If the camera still blank, reboot your phone with how you boot in sunst0rm and restart process from Step 4.***
 
-***Note: You need to run process everytimem from Step 4 if you want the use camera when it go blank until developers find a fix.***
+***Note: You need to run process everytime from Step 4 if you want the use camera when it go blank until developers find a fix.***
 
 
 
