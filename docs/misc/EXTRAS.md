@@ -68,6 +68,7 @@ Step 7: Write your root password, must be "alpine" at first (its the primary pas
 Step 8: Enjoy
 
 ***Note: If the camera still blank, reboot your phone with how you boot in sunst0rm and restart process from Step 4.***
+***Note: You need to run process everytimem from Step 4 if you want the use camera when it go blank until developers find a fix.***
 
 
 
