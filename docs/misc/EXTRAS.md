@@ -55,3 +55,23 @@ Step 1: Open Sileo or your preferred package manager.
 Step 2: Add this repo to your sources `https://julioverne.github.io`
 Step 3: Search for "Fiona" and install the tweak
 **And that is it you are done.**
+
+## Fix Camera TEMPORARY at the moment ##
+***Note: You need be in a jailbroken state.***
+Step 1: Jailbreak your device with Taurine
+Step 2: Make the repo updates in Sileo
+Step 3: Install "NewTerm 2" from [Chariz repo](https://repo.chariz.com/)
+Step 4: Open NewTerm 2
+Step 5: Write " sudo ldrestart " 
+Step 6: Tap return
+Step 7: Write your root password, must be "alpine" at first (its the primary password, you can change it with writing " passwd " to NewTerm 2)
+Step 8: Enjoy
+
+***Note: If the camera still blank, reboot your phone with how you boot in sunst0rm and restart process from Step 4.***
+
+
+
+
+
+
+
