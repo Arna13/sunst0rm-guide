@@ -75,10 +75,39 @@ Step 7: Write your root password, must be "alpine" at first (its the primary pas
 
 Step 8: Enjoy
 
-
 ***Note: If the camera still blank, reboot your phone with how you boot in sunst0rm and restart process from Step 4.***
 
 ***Note: You need to run process everytime from Step 4 if you want the use camera when it go blank until developers find a fix.***
+
+## Fix Flashlight PERMANENT ##
+
+***Note: This also fixes the logos like recovery,battery.
+
+Step 1: Download the latest signed version for your iDevice as well as the version you're going to from [ipsw.me](https://ipsw.me/)
+
+Step 2: Rename the ipsw's type to zip type ( ios14.ipsw > ios14.zip, ios15.ipsw > ios15.zip )
+
+Step 2: Extract them with some tool ( ios14.zip > ios14, ios15.zip > ios15 )
+
+Step 3: Open the /Firmware/all_flash in iOS 15.6.1 or ur latest signed firmware zip
+
+Step 3.1: Open the Firmware/all_flash in iOS 14.x or where u going to zip
+
+Step 4: In 15.6.1 ipsw, delete the files like " DeviceTree.xxxap.im4p " (example for my iPhone 6s, i need delete DeviceTree.n71map.im4p and DeviceTree.n71ap.im4p)
+
+
+***WARNING: Be sure you not taked DeviceTree from 15.6.1 ipsw. Otherwise the restore will finish unsuccessful!
+
+
+Step 5: Copy all remaining files to iOS 14 all_flash path
+
+Step 6: If Operating System asks for overwrite OK it
+
+Step 7: Compress the iOS 14 folder to zip ( ios14 > ios14.zip )
+
+Step 8: Rename zip type to ipsw type ( ios14.zip > ios14.ipsw )
+
+Step 9: From here you can downgrade on sunst0rm with ipsw you do, enjoy.
 
 
 
