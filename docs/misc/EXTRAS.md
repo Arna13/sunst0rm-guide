@@ -81,7 +81,7 @@ Step 8: Enjoy
 
 ## Fix Flashlight PERMANENT ##
 
-***Note: This also fixes the logos like recovery,battery.
+***Note: This also fixes the logos like recovery,battery.***
 
 Step 1: Download the latest signed version for your iDevice as well as the version you're going to from [ipsw.me](https://ipsw.me/)
 
@@ -96,7 +96,7 @@ Step 3.1: Open the Firmware/all_flash in iOS 14.x or where u going to zip
 Step 4: In 15.6.1 ipsw, delete the files like " DeviceTree.xxxap.im4p " (example for my iPhone 6s, i need delete DeviceTree.n71map.im4p and DeviceTree.n71ap.im4p)
 
 
-***WARNING: Be sure you not taked DeviceTree from 15.6.1 ipsw. Otherwise the restore will finish unsuccessful!
+***WARNING: Be sure you not taked DeviceTree from 15.6.1 ipsw. Otherwise the restore will finish unsuccessful!***
 
 
 Step 5: Copy all remaining files to iOS 14 all_flash path
