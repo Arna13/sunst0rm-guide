@@ -20,7 +20,7 @@ TLDR:
 
 With homebrew installed, we will start getting ourselves some of the dependencies:
 ```
-brew install automake autoconf pkg-config libtool libusb poetry libpng
+brew install automake autoconf pkg-config libtool libusb poetry
 ```
 
 With this done, we can start compiling some of the dependencies
