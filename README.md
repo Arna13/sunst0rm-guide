@@ -11,7 +11,7 @@ This is a hopefully easy to understand guide for [mineek's sunst0rm](https://git
   - Misc:
     - [Troubleshooting](docs/misc/TROUBLESHOOTING.md): This will help you fix common errors you may encounter using sunst0rm or installing its dependencies.
     - [sunst0rm-gui](docs/misc/GUI.md): More info about the (not yet finished) GUI version of sunst0rm.
-    - [Additional Stuff](docs/misc/EXTRAS.md): Includes: How to install Cydia alongside Sileo
+    - [Additional Stuff](docs/misc/EXTRAS.md): Includes: Frequently asked fixes.
 
 
 #### For more information, check out the [discord](https://discord.gg/TqVH6NBwS3)!
