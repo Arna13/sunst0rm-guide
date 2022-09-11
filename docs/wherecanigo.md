@@ -66,7 +66,7 @@
 # iPhone X - A11 ##
 
 - You can downgrade to all 14.3-14.8
-- If you want  ***Jailbreak***  your device with [Taurine](https://taurine.app/) can only downgrade to 14.3
+- If you want  ***Jailbreak***  your device with [Taurine](https://taurine.app/) you can only downgrade to 14.3
 - Your Face ID will be broken on all downgrades.
 
 
