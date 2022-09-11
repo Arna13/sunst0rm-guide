@@ -91,7 +91,7 @@ Step 2: Extract them with some tool ( ios14.zip > ios14, ios15.zip > ios15 )
 
 Step 3: Open the /Firmware/all_flash in iOS 15.6.1 or ur latest signed firmware zip
 
-Step 3.1: Open the Firmware/all_flash in iOS 14.x or where u going to zip
+Step 3.1: Open the /Firmware/all_flash in iOS 14.x or where u going to zip
 
 Step 4: In 15.6.1 ipsw, delete the files like " DeviceTree.xxxap.im4p " (example for my iPhone 6s, i need delete DeviceTree.n71map.im4p and DeviceTree.n71ap.im4p)
 
@@ -102,6 +102,34 @@ Step 4: In 15.6.1 ipsw, delete the files like " DeviceTree.xxxap.im4p " (example
 Step 5: Copy all remaining files to iOS 14 all_flash path
 
 Step 6: If Operating System asks for overwrite OK it
+
+Step 7: Compress the iOS 14 folder to zip ( ios14 > ios14.zip )
+
+Step 8: Rename zip type to ipsw type ( ios14.zip > ios14.ipsw )
+
+Step 9: From here you can downgrade on sunst0rm with ipsw you do, enjoy.
+
+## Fix Hey Siri, Raise to Wake (Not tested) ##
+
+***Note: Thats how is it in title. Its not tested but you will succeeded in restore and they must work.
+
+Step 1: Download the latest signed version for your iDevice as well as the version you're going to from [ipsw.me](https://ipsw.me/)
+
+Step 2: Rename the ipsw's type to zip type ( ios14.ipsw > ios14.zip, ios15.ipsw > ios15.zip )
+
+Step 2: Extract them with some tool ( ios14.zip > ios14, ios15.zip > ios15 )
+
+Step 3: Open the /Firmware/AOP folder in iOS 15.6.1 or ur latest signed firmware zip
+
+Step 3.1: Open the /Firmware/AOP in folder iOS 14.x or where u going to zip too
+
+Step 4: In 15.6.1 /Firmware/AOP, there must be a file named ' aopfw-xxxxaop.im4p ' (for my iPhone 6S its like ' aopfw-s8000aop.im4p ')
+
+Step 5: Copy that file ' aopfw-xxxxaop.im4p '
+
+Step 6: Replace it to /Firmware/AOP in ***IOS 14 ZIP!***
+
+Step 6.1: If Operating System asks for overwrite OK it
 
 Step 7: Compress the iOS 14 folder to zip ( ios14 > ios14.zip )
 
