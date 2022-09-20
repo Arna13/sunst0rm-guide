@@ -93,7 +93,7 @@ cd buildroot_macos-latest
 cp -r usr/local/* /usr/local/
 ```
 
-Now, we will ``chmmod`` it to add execution permissions to the bin file:
+Now, we will ``chmod`` it to add execution permissions to the bin file:
 ```
 chmod +x /usr/local/bin/img4tool
 ```
