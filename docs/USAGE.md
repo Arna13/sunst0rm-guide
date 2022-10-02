@@ -110,7 +110,7 @@ Just get into DFU as you did before, even if the screen is blank it will work. F
 
 Your iPhone should reconnect to your computer. Now, you need to get into pwndfu with sigchecks removed just like before. If the exploit fails, try to get into the real DFU mode again until it works.
 
-Once we are in pwndfu with sigchecks removed, we only need to run ``./boot.sh`` or ``./boot-a10.sh`` depending on our device.
+Once we are in pwndfu with sigchecks removed, we only need to run ``./boot.sh`` on our device.
 
 The screen should light up and you will soon start seeing verbose. Your iPhone will finish to restore and then, it may power off again. 
 
