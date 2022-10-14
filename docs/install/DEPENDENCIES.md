@@ -55,9 +55,7 @@ If it says the program is from an untrusted source and doesn't let you run it, g
 
 ### Step 3: [iBoot64Patcher](https://github.com/Cryptiiiic/iBoot64Patcher)
 This one is a bit tricky to compile too, but hopefully we have a binary available too, so we will use it.
-The same way as before, you can get your binary via [github actions](https://github.com/Arna13/iBoot64Patcher/actions) or [nightly.link](https://nightly.link/Arna13/iBoot64Patcher/actions/runs/3176527177).
-
-``NOTE: As Cryptiiiic actions expired, I forked the project, ran the action workflow and pointed the download links there.``
+The same way as before, you can get your binary via [github actions](https://github.com/Cryptiiiic/iBoot64Patcher/actions) or [nightly.link](https://nightly.link/Cryptiiiic/iBoot64Patcher/workflows/ci/main).
 
 Make sure to download the correct binary for your device, which in most cases is ``iBoot64Patcher-macOS-x86_64-RELEASE``.
 
