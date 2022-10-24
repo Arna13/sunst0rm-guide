@@ -50,9 +50,9 @@ Once you have your iPhone in pwndfu with sigchecks removed, you may continue.
 
 ## Downgrading
 
-We will start typing our command into our terminal but 
+We will start typing our command into our terminal, you will append some options to the base command
 > **Warning**
-> do not hit enter just yet!
+> Read the following part carefully before running any command!
 
 First, if you are not in the ``sunst0rm`` directory, ``cd`` into it.
 
