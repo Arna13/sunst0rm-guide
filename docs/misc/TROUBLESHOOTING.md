@@ -16,6 +16,9 @@ If this issue still happens, try to remove quotes ( '' ) from the command.
 ### sunstorm.py: error: unrecognized argument: true
 Some older versions of sunst0rm required to type ``true`` on its input after some arguments, like ``-r true`` or ``--kpp true``. The use of true after any argument is no longer required and will cause this error. Simply remove ``true`` from your command and you should be fine.
 
+### Unable to upload data to device
+Some commands do need superuser privileges (sudo) to work, you may get this error when you try to use those commands with normal user privileges.
+
 ## Errors using the boot.sh script
 
 ### Gray display with no verbose after running boot.sh

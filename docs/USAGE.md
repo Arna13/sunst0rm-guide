@@ -4,7 +4,10 @@ The sunst0rm script is mainly split in two parts:
   - Restoring the device
   - Preparing the boot files
 
-First, we will need to restore the device. **This will erase all your data!** Back up any important data before proceeding.
+## Restoring
+First, we will need to restore the device. 
+> **Warning**
+> This will erase all your data! Back up any important data before proceeding.
 
 Before we start, you have to download an IPSW for your device from a [SEP compatible](https://docs.google.com/spreadsheets/u/0/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/htmlview) iOS version. IPSWs can be easily found on the internet, the IPSW site of choice is [ipsw.me](https://ipsw.me/).
 
@@ -16,6 +19,8 @@ I will not get into details on how to get blobs for your device since there are 
 ECID and boardconfig can be found running ``irecovery -q`` on a terminal with an iPhone connected **in DFU mode**. 
 
 Save your boardconfig (shown in MODEL), you will need it in a moment.
+
+## Pwning
 
 To restore our device, as well as to boot it, we need a Pwner for our device. Different CPUs will need different Pwners.
 I will not be getting further into how to get your iPhone into pwndfu, you should be able to find online how to enter pwndfu on your specific device model.
@@ -43,7 +48,11 @@ ipwndfu -p && ipwndfu --patch-sigchecks && ipwndfu --repair-heap
 
 Once you have your iPhone in pwndfu with sigchecks removed, you may continue.
 
-We will start typing our command into our terminal but **do not hit enter just yet!**
+## Downgrading
+
+We will start typing our command into our terminal, you will append some options to the base command
+> **Warning**
+> Read the following part carefully before running any command!
 
 First, if you are not in the ``sunst0rm`` directory, ``cd`` into it.
 
@@ -84,7 +93,11 @@ If you get any error, please check [the troubleshooting section](./misc/TROUBLES
 
 If the progress completed fine, you should be now looking at an iphone with a blank screen after the restore bar completed, we are very close to booting now!
 
-Pay attention to this part since its very important. You will now enter the same command as before, except you will change the ``-r`` to ``-b``, and you will add your device identifier at the end of it like this: 
+## Finishing the restore
+> **Note**
+> Pay attention to this part since its very important.
+
+You will now enter the same command as before, except you will change the ``-r`` to ``-b``, and you will add your device identifier at the end of it like this: 
 
 ```
 python3 sunstorm.py -i 'IPSW' -t 'SHSH2' -b -d 'BOARDCONFIG' -id 'IDENTIFIER'
@@ -101,6 +114,8 @@ python3 sunstorm.py -i ios14.3.ipsw -t blobs.shsh2 -b -d n71map --kpp -id iPhone
 **Note that since I am using an A9 or lower device, I am putting ``--kpp`` on this command too!**
 
 This command will end pretty soon and we should have a folder named ``boot`` in our ``sunst0rm`` directory.
+
+## Booting
 
 We are on our final steps now. The next steps will need to be repeated every time we want to boot the device.
 
