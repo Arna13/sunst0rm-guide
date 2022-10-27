@@ -23,7 +23,7 @@ With homebrew installed, we will start getting ourselves some of the dependencie
 brew install automake autoconf pkg-config libtool libusb poetry
 ```
 
-With this done, we can start compiling some of the dependencies
+With this done, we can start compiling some of the dependencies.
 
 
 ### Step 1: [libirecovery](https://github.com/libimobiledevice/libirecovery)
@@ -36,15 +36,19 @@ Now you should be able to run ``irecovery`` on your terminal.
 
 ### Step 2: [futurerestore](https://github.com/futurerestore/futurerestore/)
 This one is probably one of the trickiest to compile, thats why compiling futurerestore is beyond the scope of this "simple" guide.
-Instead, we will be downloading the nightly build from its [github actions](https://github.com/futurerestore/futurerestore/actions). Bear in mind, a github account is needed for this. 
-If you dont want to create a github account, or dont find the download link, try [this one instead](https://nightly.link/futurerestore/futurerestore/workflows/ci/main).
+Instead, we will be downloading the nightly build from its [github actions](https://github.com/futurerestore/futurerestore/actions). Bear in mind, a GitHub account is needed for this. 
+If you don't want to create a GitHub account, or don't find the download link, try [this one instead](https://nightly.link/futurerestore/futurerestore/workflows/ci/main).
 
 Make sure to always download the correct file for your computer, which in most cases is ``futurerestore-macOS-RELEASE.zip``.
 
-Once you have downloaded the ``.zip`` file, extract the file if it has not automatically done so, and extract the ``.tar.gz`` inside it too. You may need an extra tool to extract tarfiles, you can use [The Unarchiver](https://theunarchiver.com/).
+Once you have downloaded the ``.zip`` file, extract the file if it has not automatically done so, and extract the ``.tar.gz`` inside it too. You may need an extra tool to extract tarfiles, you can use `/usr/bin/tar`.
+
+```
+tar xf futurerestore-macOS-*-RELEASE.tar.xz
+```
 
 You should now have a binary named futurerestore.
-We will give this binary execute permissions in case it doenst have it yet, and then we will move it to a location in our path:
+We will give this binary execute permissions in case it doesn't have it yet, and then we will move it to a location in our path:
 ```
 chmod +x futurerestore
 mv futurerestore /usr/local/bin/
@@ -55,7 +59,7 @@ If it says the program is from an untrusted source and doesn't let you run it, g
 
 ### Step 3: [iBoot64Patcher](https://github.com/Cryptiiiic/iBoot64Patcher)
 This one is a bit tricky to compile too, but hopefully we have a binary available too, so we will use it.
-The same way as before, you can get your binary via [github actions](https://github.com/Cryptiiiic/iBoot64Patcher/actions) or [nightly.link](https://nightly.link/Cryptiiiic/iBoot64Patcher/workflows/ci/main).
+The same way as before, you can get your binary via [GitHub actions](https://github.com/Cryptiiiic/iBoot64Patcher/actions) or [nightly.link](https://nightly.link/Cryptiiiic/iBoot64Patcher/workflows/ci/main).
 
 Make sure to download the correct binary for your device, which in most cases is ``iBoot64Patcher-macOS-x86_64-RELEASE``.
 
