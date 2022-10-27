@@ -48,7 +48,7 @@ tar xf futurerestore-macOS-*-RELEASE.tar.xz
 ```
 
 You should now have a binary named futurerestore.
-We will give this binary execute permissions in case it doenst have it yet, and then we will move it to a location in our path:
+We will give this binary execute permissions in case it doesn't have it yet, and then we will move it to a location in our path:
 ```
 chmod +x futurerestore
 mv futurerestore /usr/local/bin/
