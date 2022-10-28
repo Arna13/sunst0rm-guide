@@ -12,7 +12,7 @@ If you experience any issues, check the [troubleshooting section](../misc/TROUBL
   - This guide does not work on Apple Silicon CPUs. You have to compile everything locally (you may even have to manually code in support for your CPU, as precompiled binaries are for Intel CPUs), which... may get difficult.
 
 ### Step 0: [Brew](https://brew.sh/)
-Lets start simple, get yourself brew installed, you can find the instructions on [their website](https://brew.sh/). Run the command and let it finish, it will ask you to install Xcode Command Line Tools, just let it install everything.
+Let's start simple, get yourself Brew installed, you can find the instructions on [their website](https://brew.sh/). Run the command and let it finish, it will ask you to install the Xcode Command Line Tools, just let it install everything.
 
 TLDR:
 ```
