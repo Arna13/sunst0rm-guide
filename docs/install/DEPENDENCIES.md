@@ -6,19 +6,20 @@ If you experience any issues, check the [troubleshooting section](../misc/TROUBL
 
 
 ## Requirements
-  - You will require an Apple Mac to run this, or a hackintosh. VMs have mixed results and your mileage may vary, try it at your own risk.
-  - This guide was written for 64bit macOS 10.15+. Compatibility with older versions may not be guaranteed.
+  - You will require an Apple Mac to run this, or a Hackintosh. VMs have mixed results and your mileage may vary, try it at your own risk.
+  - This guide was written for 64-bit macOS 10.15+. Compatibility with older versions may not be guaranteed.
   - Make sure to have some free time and patience :)
+  - This guide does not work on Apple Silicon CPUs. You have to compile everything locally (you may even have to manually code in support for your CPU, as precompiled binaries are for Intel CPUs), which... may get difficult.
 
 ### Step 0: [Brew](https://brew.sh/)
-Lets start simple, get yourself brew installed, you can find the instructions on [their website](https://brew.sh/). Run the command and let it finish, it will ask you to install XCode Command Line Tools, just let it install everything.
+Lets start simple, get yourself brew installed, you can find the instructions on [their website](https://brew.sh/). Run the command and let it finish, it will ask you to install Xcode Command Line Tools, just let it install everything.
 
 TLDR:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-With homebrew installed, we will start getting ourselves some of the dependencies:
+With Homebrew installed, we will start getting ourselves some of the dependencies:
 ```
 brew install automake autoconf pkg-config libtool libusb poetry
 ```
@@ -27,7 +28,7 @@ With this done, we can start compiling some of the dependencies.
 
 
 ### Step 1: [libirecovery](https://github.com/libimobiledevice/libirecovery)
-To get libirecovery we can simply let brew install it so we don't have to compile it manually:
+To get libirecovery we can simply let Brew install it so we don't have to compile it manually:
 ```
 brew install libimobiledevice libirecovery
 ```
@@ -35,9 +36,9 @@ brew install libimobiledevice libirecovery
 Now you should be able to run ``irecovery`` on your terminal.
 
 ### Step 2: [futurerestore](https://github.com/futurerestore/futurerestore/)
-This one is probably one of the trickiest to compile, thats why compiling futurerestore is beyond the scope of this "simple" guide.
-Instead, we will be downloading the nightly build from its [github actions](https://github.com/futurerestore/futurerestore/actions). Bear in mind, a GitHub account is needed for this. 
-If you don't want to create a GitHub account, or don't find the download link, try [this one instead](https://nightly.link/futurerestore/futurerestore/workflows/ci/main).
+This one is probably one of the trickiest to compile, that's why compiling futurerestore is beyond the scope of this "simple" guide.
+Instead, we will be downloading the nightly build from its [GitHub actions](https://github.com/futurerestore/futurerestore/actions). Bear in mind, a GitHub account is needed for this. 
+If you don't want to create a GitHub account, or can't find the download link, try [this one instead](https://nightly.link/futurerestore/futurerestore/workflows/ci/main).
 
 Make sure to always download the correct file for your computer, which in most cases is ``futurerestore-macOS-RELEASE.zip``.
 
@@ -48,7 +49,7 @@ tar xf futurerestore-macOS-*-RELEASE.tar.xz
 ```
 
 You should now have a binary named futurerestore.
-We will give this binary execute permissions in case it doesn't have it yet, and then we will move it to a location in our path:
+We will give this binary execute permissions in case it doesn't have it yet, and then we will move it to a location in our $PATH:
 ```
 chmod +x futurerestore
 mv futurerestore /usr/local/bin/
@@ -64,7 +65,7 @@ The same way as before, you can get your binary via [GitHub actions](https://git
 Make sure to download the correct binary for your device, which in most cases is ``iBoot64Patcher-macOS-x86_64-RELEASE``.
 
 
-Same as before, we extract everything until ge get our iBoot64Patcher. We will give permissions and move it to path:
+Same as before, we extract everything until we get our iBoot64Patcher. We will set execute permissions and move it to $PATH:
 ```
 chmod +x iBoot64Patcher
 mv iBoot64Patcher /usr/local/bin/
@@ -154,13 +155,13 @@ mv asr64_patcher /usr/local/bin
 Now, ``asr64_patcher`` should be installed and accessible from the terminal.
 
 ### Step 10: [Python3](https://www.python.org/downloads/)
-We need to install the latest version of ``Python3`` since the version bundled with macOS can have some issues with ``sunst0rm``. 
+We need to install the latest version of Python 3 since the version bundled with macOS can have some issues with ``sunst0rm``. 
 
-You just need to [download python](https://www.python.org/downloads/) with the big yellow button and install it. 
+You just need to [download Python](https://www.python.org/downloads/) with the big yellow button and install it. 
 
 I will not guide you though the installation as its only a ``.dmg`` with an installer inside where you just need to click next until it installs, I think you can do this alone :)
 
 Now you should have Python icons in your launchpad, that means it installed correctly.
 
 ### Step 11: [sunst0rm](./SUNST0RM.md)
-With all external dependencies satisfied, we can start to [install sunst0rm and its pip dependencies](./SUNST0RM.md)
+With all external dependencies satisfied, we can start to [install sunst0rm and its pip dependencies](./SUNST0RM.md).
