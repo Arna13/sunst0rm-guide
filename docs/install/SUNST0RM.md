@@ -16,4 +16,4 @@ pip3 install -r requirements.txt
 
 If the ``pip3`` command fails, you can try running ``python3 -m pip install -r requirements.txt``.
 
-Once all ``pip`` dependencies are satisfied, we can proceed and use ``sunst0rm`` as explained in the [usage guide](../USAGE.md)
+Once all ``pip`` dependencies are satisfied, we can proceed and use ``sunst0rm`` as explained in the [usage guide](../USAGE.md).
