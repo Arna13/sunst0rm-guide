@@ -12,7 +12,7 @@ This is only necessary if you want to follow this guide. You can always use [the
 
 ## Getting started
 
-First off, you need to create the KVM. You can use any method you'd like but personally, I'd recommend using [this](https://github.com/kholia/OSX-KVM). Any other method would work too.
+First off, you need to create the KVM. You can use any method you'd like but personally, I'd recommend using [this](https://github.com/notAperson535/OneClick-macOS-Simple-KVM). Any other method would work too.
 
 Follow the guide in the linked repo (or for whatever method you're using)
 
