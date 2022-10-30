@@ -67,8 +67,7 @@
 
 - You can downgrade to all 14.3-14.8
 - If you want  ***Jailbreak***  your device with [Taurine](https://taurine.app/) you can only downgrade to 14.3
-- Touch will be broken on all downgrades.
-
+- Touch will be broken on all downgrades (just give up).
 
 
 
