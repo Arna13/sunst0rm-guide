@@ -67,7 +67,7 @@
 
 - You can downgrade to all 14.3-14.8
 - If you want  ***Jailbreak***  your device with [Taurine](https://taurine.app/) you can only downgrade to 14.3
-- Touch will be broken on all downgrades (just give up).
+- [Touch might be broken on downgrades](https://canary.discord.com/channels/948247189837189191/948247189837189194/1032494943404572752)
 
 
 
