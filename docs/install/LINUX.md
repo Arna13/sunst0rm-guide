@@ -6,7 +6,7 @@ This is only necessary if you want to follow this guide. You can always use [the
 
 ### This only works on Linux. Do not even bother trying to do this on Windows.
 
-### This part of the guide has only been done on Ubuntu 22.04. Other distros should work too
+### This part of the guide has only been done on Ubuntu 22.04. Other distros should work too.
 
 
 
@@ -25,7 +25,9 @@ You need at the very least 4GB of RAM allocated to the KVM to run macOS.
 
 I've only done this on Ubuntu 22.04 for now. Other distros *should* work fine, however.
 
-The install **will** take a while. On my machine, it took over 45 minutes to download and install
+The install **will** take a while. On my machine, it took over 45 minutes to download and install.
+
+Depending on your machine, the VM can be very slow.
 
 ## Getting your USB controller passed to macOS
 
@@ -64,6 +66,6 @@ If you try booting the VM and you see this, you'll have to do [this](https://bit
 
 If the above doesn't fix the issue, ask in the previously linked Discord server.
 
-If the above *does* fix the issue, you're ready to continue with the rest of the guide! 
+If the above *does* fix the issue, try connecting a USB device to the controller you forwarded. If that works, congratulations, you can proceed to the next step!
 
 You have to start with the [dependencies](docs/install/DEPENDENCIES.md).
