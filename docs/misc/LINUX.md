@@ -2,7 +2,7 @@
 
 This part of the guide focuses on getting sunst0rm on Linux using a KVM (Kernel Virtual Machine) using USB passthrough
 
-This is only necessary if you want to follow this guide. You can always use [the linux version of the script](https://github.com/MCApollo/sunst0rm) (If you want to use it natively, [here's my guide](https://github.com/afastaudir8/sunst0rm-guide-linux))    
+This is only necessary if you want to follow this guide. You can always use [the linux version of the script](https://github.com/MCApollo/sunst0rm) (If you want to use it natively, [here's my (a fast audi r8) guide](https://github.com/afastaudir8/sunst0rm-guide-linux))    
 
 ### This only works on Linux. Do not even bother trying to do this on Windows.
 
