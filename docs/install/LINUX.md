@@ -35,13 +35,13 @@ Depending on your machine, the VM can be very slow.
 
 At this point, macOS should be fully working! If it is, give yourself a well deserved pat on the back!
 
-At this point, you should add the KVM to virt-manager. The method I linked earlier gives you an easy way to do it.
+Now, you should add the KVM to virt-manager. The method I linked earlier shows you how to do it.
 
 ### This goes without saying that you need to have virt-manager installed for this.
 
 Once the KVM is added to virt-manager, it should appear on the main menu. Try launching the VM now
 
-#### If the VM doesn't boot, try launching virt-manager with `sudo virt-manager`
+#### If the VM doesn't boot due to a permission related error, try launching virt-manager with `sudo virt-manager`.
 
 Now, you need to passthrough your USB controller to the VM. To do this, shut down the VM and open the details page in virt-manager.
 
