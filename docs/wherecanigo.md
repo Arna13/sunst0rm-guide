@@ -1,7 +1,7 @@
-## Which iOS versions you can tether downgrade to with sunst0rm and jailbreak ? ##
+## Which iOS versions you can tether downgrade to with sunst0rm and jailbreak? ##
 
 - ***Note: Only checkm8 vulnerable (A7-A11) iDevices can downgrade.***
--  Firstly, you cant tether downgrade to betas.
+-  Firstly, you can't tether downgrade to betas.
 -  Secondary, you can only tether downgrade to [SEP and BASEBAND compatible](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0) versions.
 -  And, you can only jailbreak with [Taurine](https://taurine.app/) on newer devices at the moment.
 
@@ -67,9 +67,8 @@
 
 - You can downgrade to all 14.3-14.8
 - If you want  ***Jailbreak***  your device with [Taurine](https://taurine.app/) you can only downgrade to 14.3
-- Your Face ID will be broken on all downgrades.
-
-
+- Face ID will be broken on all downgrades
+- Touch might be broken on downgrades
 
 
 
