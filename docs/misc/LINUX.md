@@ -68,4 +68,4 @@ If the above doesn't fix the issue, ask in the previously linked Discord server.
 
 If the above *does* fix the issue, try connecting a USB device to the controller you forwarded. If that works, congratulations, you can proceed to the next step!
 
-You have to start with the [dependencies](docs/install/DEPENDENCIES.md).
+You have to start with the [dependencies](/docs/install/DEPENDENCIES.md).
