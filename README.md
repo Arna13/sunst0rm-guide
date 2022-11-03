@@ -4,7 +4,7 @@ This is a hopefully easy to understand guide for [mineek's sunst0rm](https://git
 ## Index
 
   - [About](docs/ABOUT.md): This will explain what is sunst0rm, who is it useful for, its benefits and drawbacks and all you need to know before you start. Its really recommended that you read this before starting.
-  - [Which iOS versions can you downgrade to](docs/wherecanigo.md): Look here for which iOS versions you can downgrade with sunst0rm and jailbreak.
+  - [Which iOS versions can you downgrade to](docs/WHERECANIDO.md): Look here for which iOS versions you can downgrade with sunst0rm and jailbreak.
   - Installation:
     - [Dependencies](docs/install/DEPENDENCIES.md): This will guide you through installing dependencies coming from a vanilla macOS install.
     - [sunst0rm](docs/install/SUNST0RM.md): This will help you set up sunst0rm in your Mac and confirm all dependencies are correctly installed
