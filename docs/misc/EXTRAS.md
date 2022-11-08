@@ -118,7 +118,7 @@ Step 9: From here you can downgrade on sunst0rm with ipsw you do, enjoy.
 
 ## Fix Hey Siri, Raise to Wake (Not tested) ##
 
-***Note: Thats how is it in title. Its not tested but you will succeeded in restore and they must work.
+***Note: Thats how is it in title. Its not tested but you will succeeded in restore and they must work.***
 
 Step 1: Download the latest signed version for your iDevice as well as the version you're going to from [ipsw.me](https://ipsw.me/)
 
