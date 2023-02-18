@@ -119,7 +119,7 @@ This command will end pretty soon and we should have a folder named ``boot`` in 
 
 We are on our final steps now. The next steps will need to be repeated every time we want to boot the device.
 
-First of all, our device is now in some sort of "fake/broken" DFU mode. We need to get into the real DFU mode.
+First of all, our device is now in LLB DFU mode. This is basically a weird variant of DFU caused by corrupting the LLB (tether downgrades require corrupting the LLB). We need to get into the real DFU mode.
 
 Just get into DFU as you did before, even if the screen is blank it will work. For example for my iPhone6S: Press Home + Pwr for 10s, then let Pwr go and keep holding Home for another 10s.
 
