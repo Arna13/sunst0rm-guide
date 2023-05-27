@@ -1,6 +1,11 @@
 # sunst0rm-guide
 This is a hopefully easy to understand guide for [mineek's sunst0rm](https://github.com/mineek/sunst0rm), it is recommended to be read in order but you can skip to any part you are interested in.
 
+### Archive notice
+This guide is no longer actively maintained and hasn't been for a while, so it's getting archived. 
+
+The instructions should still work fine, but it's not guaranteed that everything will still work. Follow the guide at your own risk. 
+
 ## Index
 
   - [About](docs/ABOUT.md): This will explain what is sunst0rm, who is it useful for, its benefits and drawbacks and all you need to know before you start. Its really recommended that you read this before starting.
